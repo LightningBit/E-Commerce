@@ -1,6 +1,8 @@
 
 Welcome to the eCommerce project! This web application allows users to purchase products online.
 
+-Live Demo: https://e-commerceclient.azurewebsites.net/
+
 Features:
 - Backend: Blazor server
 - Frontend: Blazor web assembly
@@ -13,6 +15,7 @@ Features:
 - Product catalog with filtering
 - Shopping cart and checkout
 - Admin panel for managing products and orders
+- ToDo app
 - Search functionality(coming Soon!)
 - Order history and tracking(coming Soon!)
 - Bitcoin Payments using BTCPayServer(coming Soon!)
@@ -25,7 +28,6 @@ Features:
 <img width="1519" alt="image" src="https://user-images.githubusercontent.com/63980943/184663776-9851bf90-57e8-4662-ac31-169131094a07.png">
 
 Running the project locally:
-- Clone the repository: git clone https://github.com/lightningnit/eCommerce.git
 - Navigate to the project directory: cd eCommerce
 - Install the necessary dependencies: dotnet restore
 - Set up your database locally.
