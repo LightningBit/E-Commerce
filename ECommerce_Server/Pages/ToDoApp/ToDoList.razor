@@ -87,12 +87,13 @@
                                 }
                             }
                         </div>
-                        <MudButton Href="/ToDo/create" Variant="Variant.Filled" Color="Color.Primary">New ToDo</MudButton>
-
+                        <MudButton Href="/ToDo/create" Variant="Variant.Filled" Color="Color.Dark">Add ToDo</MudButton>
                     </div>
+
                 </div>
             </div>
         </body>
+
     </Authorized>
     <NotAuthorized>
         <PageTitle>Not Authorized</PageTitle>
@@ -110,7 +111,7 @@
 
 
 @code {
-    public string LocalHost = "https://bluelemonz-client.azurewebsites.net";
+    public string LocalHost = "https://e-commerceclient.azurewebsites.net";
 
     public bool IsLoading { get; set; }
     private IEnumerable<ToDoItemDTO> ToDoItems { get; set; } = new List<ToDoItemDTO>();
